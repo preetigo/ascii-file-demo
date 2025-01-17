@@ -4,8 +4,8 @@ public class ReverseFileContents {
 
     public static void main(String[] args) {
         // Provide path to files
-        try(InputStream inputStream = new FileInputStream("C:\\Users\\Binder\\input.txt");
-            OutputStream outputStream = new FileOutputStream("C:\\Users\\Binder\\output.txt")) {
+        try(InputStream inputStream = new FileInputStream("C:\\Users\\ABC\\input.txt");
+            OutputStream outputStream = new FileOutputStream("C:\\Users\\ABC\\output.txt")) {
 
             // Invoke method to reverse the contents
             reverseContents(inputStream, outputStream);
